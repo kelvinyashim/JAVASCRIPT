@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div onmousedown="mdown(this)" onmouseup="mUp(this)" style="background-color:blue; width:100px; height:50px; padding:40px;">TAP ME </div>
+
+<script>
+function mdown(obj){
+obj.innerHTML = "Hello";
+obj.style.backgroundColor = "red";
+}
+function mUp(obj){
+obj.innerHTML = "Bye";
+obj.style.backgroundColor= "pink";
+}
+</script>
+
+</body>
+
+
+</html>
